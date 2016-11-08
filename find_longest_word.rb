@@ -7,7 +7,7 @@ end
 
 def find_longest_word(input)
   words = input.split(" ")
-  longest_word = ""
+  longest_word = "'"
   words.each do |word|
     if longest_word.length < word.length
       longest_word = word
